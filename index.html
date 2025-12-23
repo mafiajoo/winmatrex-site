@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Predict & Play — تحميل التطبيق</title>
+  <meta name="description" content="حمّل تطبيق Predict & Play مباشرة. تجربة سريعة، واجهة بسيطة، وشرح كامل داخل الصفحة." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <header class="nav">
+    <div class="brand">
+      <div class="logo">
+        <img src="assets/winmatrix.png" alt="WinMatrix" />
+      </div>
+      <div class="brandText">
+        <div class="name">Predict & Play</div>
+        <div class="tag">Download • Android APK</div>
+      </div>
+    </div>
+
+    <a class="btn ghost" href="#how">ازاي أستخدمه؟</a>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="heroText">
+        <h1>حمّل التطبيق بضغطة واحدة</h1>
+        <p>
+          صفحة بسيطة للتعريف بالتطبيق + زر تحميل مباشر + شرح سريع للمميزات.
+          كل حاجة هنا معمولة عشان المستخدم يضغط “تحميل” من غير لخبطة.
+        </p>
+
+        <div class="ctaRow">
+          <!-- عدّل لينك التحميل هنا -->
+          <a class="btn primary" href="/WinMatrex.v5.apk" download>
+            تحميل APK
+          </a>
+
+          <!-- اختياري: لينك تيليجرام / واتساب دعم -->
+          <a class="btn" href="https://t.me/WinMatrex" target="_blank" rel="noreferrer">
+            تواصل / دعم
+          </a>
+        </div>
+
+        <div class="meta">
+          <span>✅ سريع</span>
+          <span>✅ سهل</span>
+          <span>✅ واجهة واضحة</span>
+        </div>
+      </div>
+
+      <!-- بدل شكل الموبايل الوهمي: لوجو حقيقي -->
+      <div class="card phone">
+        <div class="logoWrap">
+          <img src="assets/winmatrix.png" alt="WinMatrix" class="logoImg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="grid" id="how">
+      <div class="card">
+        <h2>شرح سريع</h2>
+        <ol class="steps">
+          <li>اضغط “تحميل APK”.</li>
+          <li>افتح الملف بعد التحميل.</li>
+          <li>لو ظهر تحذير: اختر “Install anyway” (حسب جهازك).</li>
+          <li>افتح التطبيق وابدأ.</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>مميزات التطبيق</h2>
+        <ul class="list">
+          <li>واجهة بسيطة وسريعة.</li>
+          <li>تجربة استخدام واضحة للمستخدم.</li>
+          <li>تصميم مناسب للموبايل.</li>
+          <li>دعم وتحديثات مستمرة.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>أسئلة شائعة</h2>
+        <details>
+          <summary>التطبيق آمن؟</summary>
+          <p>التحميل مباشر من الصفحة. يفضل التحميل دائمًا من المصدر الرسمي الخاص بك.</p>
+        </details>
+        <details>
+          <summary>ليه بيظهر تحذير عند التثبيت؟</summary>
+          <p>Android بيحذر أحيانًا عند تثبيت APK خارج متجر Google Play، وده طبيعي.</p>
+        </details>
+        <details>
+          <summary>متاح على iPhone؟</summary>
+          <p>تابع التحديثات.</p>
+        </details>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="y"></span> Predict & Play</div>
+      <div class="footerLinks">
+        <a href="#how">الشرح</a>
+        <a href="https://t.me/WinMatrex" target="_blank" rel="noreferrer">الدعم</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
